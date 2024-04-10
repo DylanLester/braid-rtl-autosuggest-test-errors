@@ -6,6 +6,7 @@ const skuConfig: SkuConfig = {
   environments: ['development', 'production'],
   publicPath: '/path/to/public/assets/', // <-- Required for sku build output
   orderImports: true,
+  setupTests: 'src/setupTests.ts',
 };
 
 export default skuConfig;

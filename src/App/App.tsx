@@ -4,16 +4,16 @@ import { BraidProvider } from 'braid-design-system';
 import apac from 'braid-design-system/themes/apac';
 import { StrictMode } from 'react';
 
-import { NextSteps } from './NextSteps';
+import { Container } from './Container';
 
 interface AppProps {
   environment: 'development' | 'production';
 }
 
-export default ({ environment }: AppProps) => (
+export default (_props: AppProps) => (
   <StrictMode>
     <BraidProvider theme={apac}>
-      <NextSteps environment={environment} />
+      <Container />
     </BraidProvider>
   </StrictMode>
 );

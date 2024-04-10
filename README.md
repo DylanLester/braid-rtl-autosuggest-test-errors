@@ -1,4 +1,4 @@
-# braid-test-errors-5
+# braid-test-errors
 
 This project is powered by [sku](https://github.com/seek-oss/sku), [braid](https://github.com/seek-oss/braid-design-system) and built with [React](https://facebook.github.io/react).
 
