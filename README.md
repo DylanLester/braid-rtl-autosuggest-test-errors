@@ -1,40 +1,7 @@
 # braid-test-errors
 
-This project is powered by [sku](https://github.com/seek-oss/sku), [braid](https://github.com/seek-oss/braid-design-system) and built with [React](https://facebook.github.io/react).
+Running the basic tests we have in `src/App/Container.test.tsx` produces multiple errors with the below being one:
 
-## Getting Started
+![Screenshot 2024-04-10 at 6 22 43 PM](https://github.com/DylanLester/braid-rtl-autosuggest-test-errors/assets/12122777/1f6b7c65-dc48-4353-876f-b706250cd4fa)
 
-First of all, make sure you&#39;ve installed [pnpm](https://pnpm.io/installation).
-
-Then, install dependencies:
-
-```sh
-$ pnpm i
-```
-
-## Workflow
-
-Start a local development server:
-
-```bash
-$ pnpm run start
-```
-
-Run unit tests:
-
-```bash
-$ pnpm run test
-```
-
-Lint and format code:
-
-```bash
-$ pnpm run lint
-$ pnpm run format
-```
-
-Build assets for production:
-
-```bash
-$ pnpm run build
-```
+There's about 26 of these errors as a result of the above test file.
